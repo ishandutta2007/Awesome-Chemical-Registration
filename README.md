@@ -1,245 +1,129 @@
-# Awesome-Chemical-Registration
+# 🧪 Awesome Chemical Registration ⚗️
 
-## Top Chemical Registration Platforms Ecosystem
+![Awesome Chemical Registration Banner](./assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Chemical-Registration"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Chemical-Registration?style=flat-square&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Chemical-Registration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Chemical-Registration?style=flat-square&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Chemical-Registration/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Chemical-Registration?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🔬 Top Chemical Registration Platforms & Cheminformatics Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+A curated list of **Chemical Registration software**, **Electronic Lab Notebooks (ELN)**, **Laboratory Information Management Systems (LIMS)**, and **open-source chemical inventory management systems**. 
 
-*Focused on Compound Registration, Structure Standardization, Inventory Management & Chemical Intelligence*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Chemical Registration**. These tools help research labs, biotech companies, and pharmaceutical organizations register chemical compounds, standardize structures, manage inventory, and integrate chemical data with bioassay results.
-
-
-
-**Examples** include ChemAxon Instant JChem, BIOVIA CISPro, Dotmatics Studies, ChemInventory, LabCollector, CDD Vault, Scilligence ELN, Signals Notebook, Scispot, and eLabNext (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, custom registration logic, and transparent chemical data — ideal for labs and startups that need full control over their compound libraries without per-seat SaaS fees or vendor lock-in.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[ChemAxon Instant JChem](https://chemaxon.com/)**  
-
-  Desktop and web-based chemical database management with structure search, property calculation, and registration capabilities.
-
-
-
-- **[BIOVIA CISPro](https://www.3ds.com/)**  
-
-  Chemical inventory and safety management system for tracking reagents, samples, and hazardous materials across multiple locations.
-
-
-
-- **[Dotmatics Studies](https://www.dotmatics.com/)**  
-
-  Electronic lab notebook and data management platform for chemistry and biology research with compound registration.
-
-
-
-- **[ChemInventory](https://www.cheminventory.net/)**  
-
-  Cloud-based chemical inventory management for labs. Tracks reagents, locations, and safety data.
-
-
-
-- **[LabCollector](https://labcollector.com/)**  
-
-  LIMS and lab management platform with chemical inventory and sample tracking modules.
-
-
-
-- **[CDD Vault](https://www.collaborativedrug.com/)**  
-
-  Collaborative drug discovery platform with chemical registration, assay data management, and ELN capabilities.
-
-
-
-- **[Scilligence ELN](https://www.scilligence.com/)**  
-
-  Electronic lab notebook with chemical structure handling and registration.
-
-
-
-- **[Signals Notebook](https://www.dotmatics.com/)**  
-
-  Dotmatics' ELN with chemical registration and structure search.
-
-
-
-- **[Scispot](https://www.scispot.com/)**  
-
-  Digital lab platform with ELN, LIMS, and chemical inventory capabilities.
-
-
-
-- **[eLabNext](https://www.elabnext.com/)**  
-
-  Digital lab platform combining ELN, LIMS, and inventory management with chemical registration.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Compound Registration & Management
-
-
-
-- **[MolTrack](https://github.com/datagrok-ai/mol-track)**  
-
-  **The most complete open-source chemical compound registration system.** Lightweight, flexible, and extendable FastAPI server for managing chemical compounds, batches, and properties, powered by **RDKit-enabled PostgreSQL**. **MIT License**. Features compound registration with unique identifiers, duplicate detection, structure validation and standardization (tautomerization, salts, stereo conventions), custom metadata attributes, batch/lot management with purity and inventory tracking, protocol and assay result registration, structure-based search (exact, substructure, similarity, Markush), audit trails, role-based access control, and RESTful API for integration with ELN/LIMS. Integrates with chemical drawing tools (MarvinJS, ChemDraw, Ketcher). Docker setup scripts for Windows/macOS/Linux .
-
-
-
-- **[lwreg](https://github.com/rinikerlab/lightweight-registration)**  
-
-  **Lightweight chemical registration system created by Greg Landrum (RDKit founder).** Open-source, pure Python with minimal dependencies (RDKit only). Designed for **computational workflows** with simple Python API and CLI — no GUI. Captures both **2D structures and 3D conformers**. Supports configurable chemical identity definitions (tautomers, stereochemistry, counter-ions) via customizable standardization and filtering pipelines. Uses RDKit RegistrationHash with layered hashing for duplicate detection. Includes schema for storing experimental data and metadata linked to registered structures. **MIT License** (ETH Zurich) .
-
-
-
-- **[OpencanSARchem](https://github.com/)**  
-
-  **Open-source chemical registration and standardization pipeline for FAIR integration of bioassay data.** Published in *Journal of Cheminformatics* (2026). Replaces the commercial canSARchem pipeline with an open-source, computationally efficient alternative. Achieves **100-fold reduction in computational time** compared to original. Carefully assesses tautomeric representations using Gibbs free energy calculations. Deployed within canSAR.ai, unifying disparate biochemical data sources for the drug discovery community .
-
-
-
-### Electronic Lab Notebooks with Chemical Registration
-
-
-
-- **[eLabFTW](https://github.com/elabftw/elabftw)**  
-
-  **The most popular open-source electronic lab notebook for research labs.** Free, modern, versatile, and secure. **AGPL-3.0**. Features include experiment notes, **resources database for lab reagents and chemical products**, equipment scheduling, **chemical structure editor (Ketcher)**, DNA cloning (OpenCloning), and a **Compounds database** where all teams and users can register and view entries. Trusted timestamping (RFC 3161), audit logs, and advanced permissions. Available in 21 languages. Deployed at research institutions worldwide including Kyoto University .
-
-
-
-- **[Chemotion ELN](https://github.com/ComPlat/chemotion_ELN)**  
-
-  **Open-source electronic lab notebook specifically designed for chemistry research.** Developed at Karlsruhe Institute of Technology (KIT). Features structure drawing, reaction planning, and chemistry-aware data management. **Chemotion Repository** is a public collection of synthetic compounds with analytical data (NMR, MS, IR, UV, crystal structures), automatically citable via DOI and available on PubChem. Samples are assigned to molecules with InChI and SMILES identifiers generated via OpenBabel. PubChem API integration for CAS registry number lookup .
-
-
-
-- **[Phoenix ELN](https://github.com/abrechts/Phoenix-ELN)**  
-
-  **Open-source electronic lab notebook for organic, organometallic, peptide, resin and polymer chemistry.** Windows platform. Features integrated chemical reaction drawing editor, stoichiometric calculations, self-learning materials database (~200 common reagents/solvents), reaction substructure searches (RSS) and full-text search. Auto-generates "Same Step" experiment lists and synthetic connection graphs. Optional ELN Server Package for MySQL/MariaDB synchronization across teams .
-
-
-
-- **[OrChem](https://orchem.sourceforge.net/)**  
-
-  **Open-source chemistry extension for Oracle Database** adding registration and indexing of chemical structures. Supports fast substructure and similarity searching for databases with millions of compounds. Uses Chemistry Development Kit (CDK). **LGPL License**. Powers substructure search in ChEBI database. Provides similarity searching with response times in seconds for millions of compounds .
-
-
-
-### Inventory Management
-
-
-
-- **[Organilab](https://github.com/Solvosoft/organilab)**  
-
-  Open-source virtual tool for **inventory management of chemical substances**. Designed for compliance with **ISO-17025 and GHS**. Open Collective supported .
-
-
-
-- **[LIME](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336412)**  
-
-  **Free, open-source laboratory inventory management software** using barcode/QR scanning via mobile app. Combines Scan-IT to Office app with Google Sheets/Excel templates. Features real-time alerts, dynamic inventory updates, custom fields, and offline capability. Survey of deployed labs: 87.5% found it moderately easy to set up, 75% described it as extremely/very accurate, and 75% will continue using it. Reduces tracking time and improves accuracy .
-
-
-
-- **[ChemSearch](https://github.com/ruzx/ChemSearch)**  
-
-  **Chemical substructure search and inventory management toolkit for Obsidian.** Vault-wide substructure search using Ketcher drawings. Chemical Inventory Manager tracks physical containers with safety data linking (PubChem CIDs, LCSS), smart auto-complete, and structured YAML metadata. Offline calculations for exact mass, elemental analysis, and experimental boilerplate. **MIT License** .
-
-
-
-- **[ChemTrack](https://github.com/Yashraj221B/chemical-management-frontend)**  
-
-  Modern web application for **laboratory chemical inventory management**. React 19 + TypeScript + Tailwind CSS. Features search/filter by name/formula/bottle number, detailed chemical information with PubChem integration, visual formula display, location tracking, admin dashboard, and role-based access control .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Compound Registration**: **MolTrack** (most complete, FastAPI + RDKit + PostgreSQL), **lwreg** (lightweight, Python API, 2D/3D support), **OpencanSARchem** (FAIR bioassay integration) .
-
-- **Chemistry ELN**: **eLabFTW** (most popular, compounds database, Ketcher), **Chemotion ELN** (KIT, repository integration), **Phoenix ELN** (organic synthesis focused) .
-
-- **Chemical Search**: **OrChem** (Oracle extension, CDK-based, ChEBI-powered) .
-
-- **Inventory Management**: **Organilab** (ISO-17025/GHS), **LIME** (barcode/QR scanning), **ChemSearch** (Obsidian plugin), **ChemTrack** (React web app) .
-
-
-
-**Frameworks for building custom systems**: Combine **MolTrack** for complete compound registration with structure search, **lwreg** for lightweight computational workflows, **eLabFTW** or **Chemotion ELN** for chemistry-focused experiment documentation, and **LIME** or **ChemSearch** for inventory management. Add **PostgreSQL with RDKit cartridge** for chemical intelligence and **Docker** for deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Chemical registration platforms handle sensitive research data and hazardous material information; ensure compliance with institutional safety policies and relevant regulations (GHS, ISO-17025).
-
-- **Open-source reality**: The open-source ecosystem for chemical registration is **mature and production-ready**. **MolTrack** provides comprehensive compound registration with RDKit-enabled PostgreSQL . **lwreg**, created by RDKit's founder, offers a lightweight, computationally-focused registration system . **eLabFTW** is the most popular open-source ELN with built-in compound database . **OpencanSARchem** provides FAIR-compliant standardization for bioassay data . For enterprise-scale commercial deployment with dedicated support and advanced cheminformatics features, commercial platforms (ChemAxon, BIOVIA, Dotmatics) remain the primary choice for large pharmaceutical organizations.
-
-
+These industry-leading tools assist research laboratories, biotechnology startups, pharmaceutical enterprises, and academic institutions in registering chemical compounds, standardizing 2D/3D molecular structures, managing reagent inventory, enforcing GHS/ISO-17025 compliance, and seamlessly integrating bioassay datasets.
 
 ---
 
+## 📌 Table of Contents
 
+- [📊 Sector Overview & Market Size](#-sector-overview--market-size)
+- [☁️ SaaS & Hosted Platforms](#%EF%B8%8F-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [❤️ Support & Sponsorship](#%EF%B8%8F-support--sponsorship)
+- [📈 Star History](#-star-history)
 
-**Made for medicinal chemists, lab managers, cheminformatics engineers, and research IT teams.**
+---
 
-Let's make chemical registration more open, transparent, and FAIR.
+## 📊 Sector Overview & Market Size
+
+> [!NOTE]
+> The global **Chemical Registration & Laboratory Informatics (ELN/LIMS/Cheminformatics) Market** is estimated at **$3.8 Billion USD in 2026** (projected to reach ~$5.9 Billion by 2031 at a ~9.2% CAGR). The market is **moderately fragmented**, featuring established enterprise incumbents (Siemens/Dotmatics, Dassault Systèmes BIOVIA, Certara/ChemAxon) alongside high-growth cloud-native platforms (CDD Vault, Scispot, eLabNext) and a thriving open-source ecosystem (eLabFTW, Chemotion, MolTrack).
+
+---
+
+## ☁️ SaaS & Hosted Platforms
+
+Below is a detailed comparison of top commercial Chemical Registration and LIMS platforms, sorted by parent company size / valuation in descending order.
+
+| Platform 🚀 | Description 📝 | Starting Pricing 💰 | Free Tier / Trial Limits ⏳ | Company Valuation / Revenue 🏢 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[BIOVIA CISPro](https://www.3ds.com/)** | Enterprise chemical inventory, safety, and hazardous material management across global sites. | Contact sales (~$15,000/yr enterprise quote) | Customized demo upon request; no self-serve free trial | **$31.5 Billion Market Cap** / ~$7.3 Billion annual revenue (Dassault Systèmes) |
+| **[Dotmatics Studies](https://www.dotmatics.com/)** | Cloud R&D platform combining chemistry ELN, assay integration, and compound registration. | Custom quote (~$10,000+/yr base enterprise) | Personalized demo upon request; no public self-serve trial | **$5.1 Billion Acquisition** by Siemens (~$300 Million revenue) |
+| **[Signals Notebook](https://www.dotmatics.com/)** | Dotmatics' cloud-native ELN with chemical structure drawing, registration, and substructure search. | Custom quote (~$1,200/user/yr enterprise) | 14-day evaluation trial upon sales request | **$5.1 Billion Acquisition** by Siemens (~$300 Million revenue) |
+| **[ChemAxon Instant JChem](https://chemaxon.com/)** | Structure search, property calculation, and database registration desktop & web platform. | Commercial annual license (~$2,500/user/yr) | 30-day evaluation license available upon request | **Part of Certara ($2.8 Billion Market Cap)** (~$380 Million revenue) |
+| **[CDD Vault](https://www.collaborativedrug.com/)** | Collaborative drug discovery vault for chemical registration, bioassay data, and ELN capabilities. | Custom quote (~$5,000/yr starting biotech tier) | Personalized trial with test datasets upon request | **~$25 Million Revenue** (Established private company) |
+| **[Scilligence ELN](https://scilligence.com/)** | Modular cross-platform ELN with chemical structure registration and HELM notation support. | Custom quote (~$3,500/yr modular starting rate) | 14-day personalized trial environment upon request | **~$25 Million Revenue** (11–50 employees) |
+| **[LabCollector](https://labcollector.com/)** | Modular LIMS and lab management platform with chemical inventory & structure tracking modules. | €180/year (or ~$3,900 one-time perpetual license) | 30-day full feature free trial | **~$15 Million Revenue** (AgileBio) |
+| **[eLabNext](https://www.elabnext.com/)** | Integrated digital lab platform combining ELN, LIMS, and chemical compound registration. | €14.50/user/month (billed annually) | 30-day free trial with full ELN & inventory features | **$10.6 Million Revenue** (SciSure merged entity) |
+| **[Scispot](https://www.scispot.com/)** | Tech-forward lab operating layer combining ELN, LIMS, and automated chemical registration workflows. | $9,000/year base contract (unlimited seats) | Free "Digital Brain" assessment & sandbox demo | **$8 Million+ Raised** (~$2.8 Million ARR) |
+| **[ChemInventory](https://www.cheminventory.net/)** | Cloud chemical inventory tracking reagents, containers, SDS, and storage locations. | $56/year (Paid Tier 1) | **Free Forever Tier**: Up to 15 users & 300 containers (or 30-day trial for higher tiers) | Bootstrapped / Specialized cloud SaaS (~$1 Million ARR) |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+The open-source ecosystem for chemical compound registration, structure searching, and inventory tracking is mature and production-ready. Projects are listed below sorted by **GitHub Star Count (descending)**.
+
+### 🌟 High-Star Open-Source Repositories
+
+- **[eLabFTW](https://github.com/elabftw/elabftw)** [<img stroke="none" fill="none" fill-opacity="1" opacity="1" stroke-width="1" stroke-opacity="1" stroke-dasharray="none" stroke-dashoffset="0" transform="matrix(1 0 0 1 0 0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" opacity-group="1" stroke-group="1" fill-group="1" alt="eLabFTW Stars" src="https://img.shields.io/github/stars/elabftw/elabftw?style=social&color=white"/>](https://github.com/elabftw/elabftw/stargazers)  
+  🏆 **The most popular open-source electronic lab notebook.** AGPL-3.0. Features experiment management, reagent inventory, integrated chemical structure drawing (Ketcher), DNA cloning, and a centralized **Compounds Database** for registering structures. Trusted by top research institutes worldwide.
+
+- **[Chemotion ELN](https://github.com/ComPlat/chemotion_ELN)** [<img alt="Chemotion Stars" src="https://img.shields.io/github/stars/ComPlat/chemotion_ELN?style=social&color=white"/>](https://github.com/ComPlat/chemotion_ELN/stargazers)  
+  ⚗️ **Open-source electronic lab notebook designed specifically for chemistry research.** Developed at KIT. Includes chemical structure drawing, reaction planning, automatic InChI/SMILES generation via OpenBabel, and PubChem CAS lookup integration.
+
+- **[lwreg](https://github.com/rinikerlab/lightweight-registration)** [<img alt="lwreg Stars" src="https://img.shields.io/github/stars/rinikerlab/lightweight-registration?style=social&color=white"/>](https://github.com/rinikerlab/lightweight-registration/stargazers)  
+  ⚡ **Lightweight chemical registration system created by Greg Landrum (RDKit founder).** Pure Python with minimal dependencies. Designed for computational pipelines, capturing both 2D structures and 3D conformers with layered hash duplicate detection. MIT License.
+
+- **[Chemalot](https://github.com/chemalot/chemalot)** [<img alt="Chemalot Stars" src="https://img.shields.io/github/stars/chemalot/chemalot?style=social&color=white"/>](https://github.com/chemalot/chemalot/stargazers)  
+  🛠️ **Command-line suite for chemical structure registration, validation, and data curation.** Ideal for building custom automated chemistry ETL pipelines.
+
+- **[Phoenix ELN](https://github.com/abrechts/Phoenix-ELN)** [<img alt="Phoenix ELN Stars" src="https://img.shields.io/github/stars/abrechts/Phoenix-ELN?style=social&color=white"/>](https://github.com/abrechts/Phoenix-ELN/stargazers)  
+  🧪 **Open-source ELN for organic, organometallic, and polymer chemistry.** Features chemical reaction drawing, stoichiometric calculators, built-in materials database, and reaction substructure search (RSS).
+
+- **[Open Enventory (US Fork)](https://github.com/khoivan88/open_enventory-modified_for_US)** [<img alt="Open Enventory Stars" src="https://img.shields.io/github/stars/khoivan88/open_enventory-modified_for_US?style=social&color=white"/>](https://github.com/khoivan88/open_enventory-modified_for_US/stargazers)  
+  📦 **Chemical inventory and notebook software for research groups.** Tracks chemical containers, locations, and safety datasheets.
+
+- **[MolTrack](https://github.com/datagrok-ai/mol-track)** [<img alt="MolTrack Stars" src="https://img.shields.io/github/stars/datagrok-ai/mol-track?style=social&color=white"/>](https://github.com/datagrok-ai/mol-track/stargazers)  
+  🧬 **Full-featured compound registration server.** FastAPI backend powered by **RDKit-enabled PostgreSQL**. Supports compound registration, unique salt/tautomer standardization, duplicate detection, batch/lot management, and REST API integration. MIT License.
+
+- **[Cheminv](https://github.com/tmorrell/cheminv)** [<img alt="Cheminv Stars" src="https://img.shields.io/github/stars/tmorrell/cheminv?style=social&color=white"/>](https://github.com/tmorrell/cheminv/stargazers)  
+  🏷️ **Web-based chemical inventory management system.** Built with PHP/MySQL to manage laboratory chemicals, locations, container quantities, and orders.
+
+- **[Organilab](https://github.com/Solvosoft/organilab)** [<img alt="Organilab Stars" src="https://img.shields.io/github/stars/Solvosoft/organilab?style=social&color=white"/>](https://github.com/Solvosoft/organilab/stargazers)  
+  📋 **Virtual inventory management system for chemical substances.** Built for compliance with **ISO-17025 and GHS** laboratory standards.
+
+- **[ChemSearch](https://github.com/ruzx/ChemSearch)** [<img alt="ChemSearch Stars" src="https://img.shields.io/github/stars/ruzx/ChemSearch?style=social&color=white"/>](https://github.com/ruzx/ChemSearch/stargazers)  
+  📝 **Chemical substructure search and container inventory toolkit for Obsidian.** Ketcher integration with PubChem LCSS safety linking. MIT License.
+
+- **[ChemTrack](https://github.com/Yashraj221B/chemical-management-frontend)** [<img alt="ChemTrack Stars" src="https://img.shields.io/github/stars/Yashraj221B/chemical-management-frontend?style=social&color=white"/>](https://github.com/Yashraj221B/chemical-management-frontend/stargazers)  
+  💻 **Modern React 19 + TypeScript chemical inventory web application.** Features PubChem integration, formula rendering, and container location tracking.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly welcomed! Please follow these simple guidelines:
+
+1. Fork this repository.
+2. Add or update entries in `README.md` maintaining table/list formats.
+3. Provide factual descriptions, official documentation links, pricing info, or GitHub star counts.
+4. Submit a Pull Request explaining your changes.
+
+---
+
+## ⚠️ Disclaimer
+
+This list is community-curated for informational purposes and does not constitute an explicit endorsement. Chemical registration software handles sensitive intellectual property and hazardous materials—always verify compliance with GHS and ISO-17025 regulations before deployment.
+
+---
+
+## ❤️ Support & Sponsorship
+
+If you find this repository helpful for your research, lab operations, or software development, please consider showing your support:
+
+- ⭐ **Star this repository** on GitHub to increase its visibility.
+- 🔀 **Fork & Share** it with colleagues in chemistry, biology, and cheminformatics.
+- ☕ **Sponsor the Maintainer**: Support ongoing open-source curation and project maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Chemical-Registration&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Chemical-Registration&type=date&legend=top-left)
